@@ -31,7 +31,7 @@ export default function Hero() {
               >
                 <circle r={1} cx={1} cy={1} />
               </svg>
-              <a className="text-gray-600" href="/">
+              <a className="text-gray-600" href="https://github.com/CarlosEduts/dev-kiit" target="_blank">
                 {t("about")}
               </a>
             </div>
