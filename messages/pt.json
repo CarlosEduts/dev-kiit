@@ -1,6 +1,78 @@
 {
-    "Home": {
-      "title": "Olá, Mundo!"
+  "Header": {
+    "tools-grup": {
+      "text": "Texto",
+      "design": "Design",
+      "dev": "Desenvolvimento"
+    },
+    "dropdown": {
+      "language": "Idioma",
+      "portuguese": "Português",
+      "english": "Inglês"
+    },
+    "tools-data": {
+      "text": [
+        {
+          "name": "Contador de Caracteres e Palavras",
+          "description": "Conte o número de caracteres e palavras de qualquer texto.",
+          "href": "/count-characters-tool"
+        },
+        {
+          "name": "Ordenador de Texto",
+          "description": "Organize e copie textos em ordem alfabética com facilidade.",
+          "href": "/sort-text-tool"
+        },
+        {
+          "name": "Gerador de Lorem Ipsum",
+          "description": "Digite o número de parágrafos para gerar o texto de exemplo.",
+          "href": "/lorem-generator-tool"
+        },
+        {
+          "name": "Gerador de Texto Invertido",
+          "description": "Digite o texto que deseja inverter e clique no botão para ver o resultado.",
+          "href": "/reverse-text-tool"
+        }
+      ]
     }
+  },
+  "Home": {
+    "title": "Olá, Mundo!",
+    "subtitle": "Este projeto oferece uma coleção de ferramentas projetadas para simplificar o dia a dia de desenvolvedores, escritores e usuários em geral.",
+    "creator": "Feito por Carlos",
+    "about": "Sobre o Projeto"
+  },
+  "count-characters-tool": {
+    "title": "Contador de Caracteres e Palavras",
+    "description": "Conte o número de caracteres e palavras de qualquer texto.",
+    "placeholder": "Digite seu texto aqui...",
+    "charCount": "Contagem de Caracteres",
+    "wordCount": "Contagem de Palavras"
+  },
+  "sort-text-tool": {
+    "sortTitle": "Ordenador de Texto",
+    "sortDescription": "Organize e copie textos em ordem alfabética com facilidade.",
+    "sortPlaceholder": "Digite o texto aqui para organizar...",
+    "sortButton": "Organizar Texto",
+    "noSortedText": "Nenhum texto para exibir.",
+    "copyButton": "Copiar Texto"
+  },
+  "lorem-generator-tool": {
+    "loremTitle": "Gerador de Lorem Ipsum",
+    "loremDescription": "Digite o número de parágrafos para gerar o texto de exemplo.",
+    "paragraphCount": "Número de Parágrafos",
+    "generateButton": "Gerar Lorem Ipsum",
+    "generatedText": "Texto Gerado",
+    "wordsPerParagraph": "Palavras por Parágrafo",
+    "copyButton": "Copiar Texto",
+    "copySuccess": "Texto copiado para a área de transferência!",
+    "copyError": "Falha ao copiar o texto. Tente novamente."
+  },
+  "reverse-text-tool": {
+    "reverseTitle": "Gerador de Texto Invertido",
+    "reverseDescription": "Digite o texto que deseja inverter e clique no botão para ver o resultado.",
+    "reversePlaceholder": "Digite o texto aqui...",
+    "reverseButton": "Inverter Texto",
+    "copyButton": "Copiar Texto",
+    "noReversedText": "O texto invertido será exibido aqui."
   }
-  
+}
