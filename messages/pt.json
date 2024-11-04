@@ -3,7 +3,8 @@
     "tools-grup": {
       "text": "Texto",
       "design": "Design",
-      "dev": "Desenvolvimento"
+      "dev": "Desenvolvimento",
+      "time": "Tempo"
     },
     "dropdown": {
       "language": "Idioma",
@@ -31,6 +32,20 @@
           "name": "Gerador de Texto Invertido",
           "description": "Digite o texto que deseja inverter e clique no botão para ver o resultado.",
           "href": "/reverse-text-tool"
+        }
+      ],
+      "design": [
+        {
+          "name": "Editor de Borda e Border-Radius",
+          "description": "Personalize a borda e o arredondamento da borda do elemento.",
+          "href": "/border-editor-tool"
+        }
+      ],
+      "time": [
+        {
+          "name": "Cronômetro Pomodoro",
+          "description": "Mantenha o foco com a técnica Pomodoro. Defina o tempo de trabalho e pausa.",
+          "href": "/pomodoro-timer-tool"
         }
       ]
     }
@@ -74,5 +89,30 @@
     "reverseButton": "Inverter Texto",
     "copyButton": "Copiar Texto",
     "noReversedText": "O texto invertido será exibido aqui."
+  },
+  "border-editor-tool": {
+    "borderEditorTitle": "Editor de Borda e Border-Radius",
+    "borderEditorDescription": "Personalize a borda e o arredondamento da borda do elemento.",
+    "borderWidthLabel": "Largura da Borda (px)",
+    "borderStyleLabel": "Estilo da Borda",
+    "borderColorLabel": "Cor da Borda",
+    "borderRadiusLabel": "Raio da Borda Individual (px)",
+    "borderRadiusTopLeft": "Superior Esquerdo",
+    "borderRadiusTopRight": "Superior Direito",
+    "borderRadiusBottomLeft": "Inferior Esquerdo",
+    "borderRadiusBottomRight": "Inferior Direito",
+    "generatedCSSLabel": "CSS Gerado",
+    "copyCSSButton": "Copiar CSS"
+  },
+  "pomodoro-timer-tool": {
+    "title": "Cronômetro Pomodoro",
+    "description": "Mantenha o foco com a técnica Pomodoro. Defina o tempo de trabalho e pausa.",
+    "startButton": "Iniciar",
+    "pauseButton": "Pausar",
+    "resetButton": "Redefinir",
+    "timeUpWork": "Tempo de trabalho acabou! Faça uma pequena pausa.",
+    "timeUpBreak": "Pausa acabou! Volte ao trabalho.",
+    "workDurationLabel": "Duração do Trabalho (minutos)",
+    "breakDurationLabel": "Duração da Pausa (minutos)"
   }
 }

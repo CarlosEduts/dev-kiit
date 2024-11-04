@@ -45,6 +45,12 @@ export default function Header() {
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
           {/* Ferramentas (title: Título, tool: Ferramenta, quantity: Quantidade de ferramentas) */}
           <PopoverLg title={t("tools-grup.text")} tool="text" quantity={4} />
+          <PopoverLg
+            title={t("tools-grup.design")}
+            tool="design"
+            quantity={1}
+          />
+          <PopoverLg title={t("tools-grup.time")} tool="time" quantity={1} />
         </PopoverGroup>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <Dropdow />
@@ -82,6 +88,18 @@ export default function Header() {
                     tool="text"
                     title={t("tools-grup.text")}
                     quantity={4}
+                    closeBar={() => setMobileMenuOpen(false)}
+                  />
+                  <PopoverSm
+                    title={t("tools-grup.design")}
+                    tool="design"
+                    quantity={1}
+                    closeBar={() => setMobileMenuOpen(false)}
+                  />
+                  <PopoverSm
+                    title={t("tools-grup.time")}
+                    tool="time"
+                    quantity={1}
                     closeBar={() => setMobileMenuOpen(false)}
                   />
                 </Disclosure>

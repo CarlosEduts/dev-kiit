@@ -3,7 +3,8 @@
     "tools-grup": {
       "text": "Text",
       "design": "Design",
-      "dev": "Development"
+      "dev": "Development",
+      "time": "Time"
     },
     "dropdown": {
       "language": "Language",
@@ -13,7 +14,7 @@
     "tools-data": {
       "text": [
         {
-          "name": "Character & Word Counter",
+          "name": "Character and Word Counter",
           "description": "Count the number of characters and words in any text.",
           "href": "/count-characters-tool"
         },
@@ -24,7 +25,7 @@
         },
         {
           "name": "Lorem Ipsum Generator",
-          "description": "Enter the number of paragraphs to generate example text.",
+          "description": "Enter the number of paragraphs to generate sample text.",
           "href": "/lorem-generator-tool"
         },
         {
@@ -32,17 +33,31 @@
           "description": "Enter the text you want to reverse and click the button to see the result.",
           "href": "/reverse-text-tool"
         }
+      ],
+      "design": [
+        {
+          "name": "Border and Border-Radius Editor",
+          "description": "Customize the border and border-radius of an element.",
+          "href": "/border-editor-tool"
+        }
+      ],
+      "time": [
+        {
+          "name": "Pomodoro Timer",
+          "description": "Stay focused with the Pomodoro technique. Set work and break times.",
+          "href": "/pomodoro-timer-tool"
+        }
       ]
     }
   },
   "Home": {
     "title": "Hello, World!",
-    "subtitle": "This project offers a collection of tools designed to simplify the daily lives of developers, writers, and general users.",
+    "subtitle": "This project offers a collection of tools designed to simplify the daily life of developers, writers, and general users.",
     "creator": "Made by Carlos",
     "about": "About the Project"
   },
   "count-characters-tool": {
-    "title": "Character & Word Counter",
+    "title": "Character and Word Counter",
     "description": "Count the number of characters and words in any text.",
     "placeholder": "Type your text here...",
     "charCount": "Character Count",
@@ -51,28 +66,53 @@
   "sort-text-tool": {
     "sortTitle": "Text Sorter",
     "sortDescription": "Easily organize and copy texts in alphabetical order.",
-    "sortPlaceholder": "Type the text here to organize...",
+    "sortPlaceholder": "Type the text here to sort...",
     "sortButton": "Sort Text",
     "noSortedText": "No text to display.",
     "copyButton": "Copy Text"
   },
   "lorem-generator-tool": {
     "loremTitle": "Lorem Ipsum Generator",
-    "loremDescription": "Enter the number of paragraphs to generate example text.",
+    "loremDescription": "Enter the number of paragraphs to generate sample text.",
     "paragraphCount": "Number of Paragraphs",
     "generateButton": "Generate Lorem Ipsum",
     "generatedText": "Generated Text",
     "wordsPerParagraph": "Words per Paragraph",
     "copyButton": "Copy Text",
     "copySuccess": "Text copied to clipboard!",
-    "copyError": "Failed to copy the text. Please try again."
+    "copyError": "Failed to copy text. Try again."
   },
   "reverse-text-tool": {
     "reverseTitle": "Reverse Text Generator",
     "reverseDescription": "Enter the text you want to reverse and click the button to see the result.",
-    "reversePlaceholder": "Type your text here...",
+    "reversePlaceholder": "Type the text here...",
     "reverseButton": "Reverse Text",
     "copyButton": "Copy Text",
-    "noReversedText": "The reversed text will appear here."
+    "noReversedText": "The reversed text will be displayed here."
+  },
+  "border-editor-tool": {
+    "borderEditorTitle": "Border and Border-Radius Editor",
+    "borderEditorDescription": "Customize the border and border-radius of an element.",
+    "borderWidthLabel": "Border Width (px)",
+    "borderStyleLabel": "Border Style",
+    "borderColorLabel": "Border Color",
+    "borderRadiusLabel": "Individual Border Radius (px)",
+    "borderRadiusTopLeft": "Top Left",
+    "borderRadiusTopRight": "Top Right",
+    "borderRadiusBottomLeft": "Bottom Left",
+    "borderRadiusBottomRight": "Bottom Right",
+    "generatedCSSLabel": "Generated CSS",
+    "copyCSSButton": "Copy CSS"
+  },
+  "pomodoro-timer-tool": {
+    "title": "Pomodoro Timer",
+    "description": "Stay focused with the Pomodoro technique. Set work and break times.",
+    "startButton": "Start",
+    "pauseButton": "Pause",
+    "resetButton": "Reset",
+    "timeUpWork": "Work time is over! Take a short break.",
+    "timeUpBreak": "Break is over! Get back to work.",
+    "workDurationLabel": "Work Duration (minutes)",
+    "breakDurationLabel": "Break Duration (minutes)"
   }
 }
