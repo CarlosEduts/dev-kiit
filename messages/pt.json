@@ -41,6 +41,18 @@
           "href": "/border-editor-tool"
         }
       ],
+      "dev": [
+        {
+          "name": "Gerador de Números Aleatórios",
+          "description": "Gere números aleatórios com comprimento e quantidade personalizados.",
+          "href": "/random-number-generator-tool"
+        },
+        {
+          "name": "Gerador de Senhas",
+          "description": "Escolha as opções e clique para gerar uma senha segura.",      
+          "href": "/password-generator-tool"
+        }
+      ],
       "time": [
         {
           "name": "Cronômetro Pomodoro",
@@ -114,5 +126,28 @@
     "timeUpBreak": "Pausa acabou! Volte ao trabalho.",
     "workDurationLabel": "Duração do Trabalho (minutos)",
     "breakDurationLabel": "Duração da Pausa (minutos)"
+  },
+  "random-number-generator-tool": {
+    "title": "Gerador de Números Aleatórios",
+    "description": "Gere números aleatórios com comprimento e quantidade personalizados.",
+    "numCountLabel": "Quantidade de números",
+    "charCountLabel": "Número de caracteres por número",
+    "generateButton": "Gerar Números",
+    "copyButton": "Copiar Números",
+    "noNumbersGenerated": "Nenhum número gerado ainda."
+  },
+  "password-generator-tool": {
+    "generateTitle": "Gerador de Senhas",
+    "generateDescription": "Escolha as opções e clique para gerar uma senha segura.",
+    "generateButton": "Gerar Senha",
+    "copyButton": "Copiar Senha",
+    "noPassword": "Nenhuma senha gerada ainda.",
+    "noCharactersSelected": "Selecione ao menos um tipo de caractere.",
+    "lengthLabel": "Comprimento da senha",
+    "includeUppercase": "Incluir letras maiúsculas",
+    "includeLowercase": "Incluir letras minúsculas",
+    "includeNumbers": "Incluir números",
+    "includeSymbols": "Incluir símbolos"
   }
+  
 }

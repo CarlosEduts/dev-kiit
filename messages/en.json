@@ -37,14 +37,26 @@
       "design": [
         {
           "name": "Border and Border-Radius Editor",
-          "description": "Customize the border and border-radius of an element.",
+          "description": "Customize the border and corner rounding of the element.",
           "href": "/border-editor-tool"
+        }
+      ],
+      "dev": [
+        {
+          "name": "Random Number Generator",
+          "description": "Generate random numbers with customized length and quantity.",
+          "href": "/random-number-generator-tool"
+        },
+        {
+          "name": "Password Generator",
+          "description": "Choose options and click to generate a secure password.",
+          "href": "/password-generator-tool"
         }
       ],
       "time": [
         {
           "name": "Pomodoro Timer",
-          "description": "Stay focused with the Pomodoro technique. Set work and break times.",
+          "description": "Stay focused with the Pomodoro technique. Set work and break time.",
           "href": "/pomodoro-timer-tool"
         }
       ]
@@ -59,14 +71,14 @@
   "count-characters-tool": {
     "title": "Character and Word Counter",
     "description": "Count the number of characters and words in any text.",
-    "placeholder": "Type your text here...",
+    "placeholder": "Enter your text here...",
     "charCount": "Character Count",
     "wordCount": "Word Count"
   },
   "sort-text-tool": {
     "sortTitle": "Text Sorter",
     "sortDescription": "Easily organize and copy texts in alphabetical order.",
-    "sortPlaceholder": "Type the text here to sort...",
+    "sortPlaceholder": "Enter the text here to sort...",
     "sortButton": "Sort Text",
     "noSortedText": "No text to display.",
     "copyButton": "Copy Text"
@@ -85,14 +97,14 @@
   "reverse-text-tool": {
     "reverseTitle": "Reverse Text Generator",
     "reverseDescription": "Enter the text you want to reverse and click the button to see the result.",
-    "reversePlaceholder": "Type the text here...",
+    "reversePlaceholder": "Enter text here...",
     "reverseButton": "Reverse Text",
     "copyButton": "Copy Text",
-    "noReversedText": "The reversed text will be displayed here."
+    "noReversedText": "Reversed text will be displayed here."
   },
   "border-editor-tool": {
     "borderEditorTitle": "Border and Border-Radius Editor",
-    "borderEditorDescription": "Customize the border and border-radius of an element.",
+    "borderEditorDescription": "Customize the border and corner rounding of the element.",
     "borderWidthLabel": "Border Width (px)",
     "borderStyleLabel": "Border Style",
     "borderColorLabel": "Border Color",
@@ -106,13 +118,35 @@
   },
   "pomodoro-timer-tool": {
     "title": "Pomodoro Timer",
-    "description": "Stay focused with the Pomodoro technique. Set work and break times.",
+    "description": "Stay focused with the Pomodoro technique. Set work and break time.",
     "startButton": "Start",
     "pauseButton": "Pause",
     "resetButton": "Reset",
-    "timeUpWork": "Work time is over! Take a short break.",
+    "timeUpWork": "Work time is up! Take a short break.",
     "timeUpBreak": "Break is over! Get back to work.",
     "workDurationLabel": "Work Duration (minutes)",
     "breakDurationLabel": "Break Duration (minutes)"
+  },
+  "random-number-generator-tool": {
+    "title": "Random Number Generator",
+    "description": "Generate random numbers with customized length and quantity.",
+    "numCountLabel": "Number of numbers",
+    "charCountLabel": "Characters per number",
+    "generateButton": "Generate Numbers",
+    "copyButton": "Copy Numbers",
+    "noNumbersGenerated": "No numbers generated yet."
+  },
+  "password-generator-tool": {
+    "generateTitle": "Password Generator",
+    "generateDescription": "Choose options and click to generate a secure password.",
+    "generateButton": "Generate Password",
+    "copyButton": "Copy Password",
+    "noPassword": "No password generated yet.",
+    "noCharactersSelected": "Select at least one character type.",
+    "lengthLabel": "Password length",
+    "includeUppercase": "Include uppercase letters",
+    "includeLowercase": "Include lowercase letters",
+    "includeNumbers": "Include numbers",
+    "includeSymbols": "Include symbols"
   }
 }

@@ -38,26 +38,20 @@ export default function PopoverSm({
   }
 
   return (
-    <>
-      <DisclosureButton className="group flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">
-        {title}
-        <ChevronDownIcon
-          aria-hidden="true"
-          className="h-5 w-5 flex-none group-data-[open]:rotate-180"
-        />
-      </DisclosureButton>
-      <DisclosurePanel className="mt-2 space-y-2">
+    <div>
+        <p className="font-bold text-indigo-600">{title}</p>
+      <div className="mt-2 space-y-2">
         {tools.map((item) => (
           <Link
-            key={item.name}
+            key={item.href}
             href={item.href}
             onClick={closeBar}
-            className="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
+            className="block rounded-lg py-2 pl-6 pr-3 text-sm text-gray-700 hover:bg-gray-50"
           >
             {item.name}
           </Link>
         ))}
-      </DisclosurePanel>
-    </>
+      </div>
+    </div>
   );
 }

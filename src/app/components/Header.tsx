@@ -50,6 +50,7 @@ export default function Header() {
             tool="design"
             quantity={1}
           />
+          <PopoverLg title={t("tools-grup.dev")} tool="dev" quantity={2} />
           <PopoverLg title={t("tools-grup.time")} tool="time" quantity={1} />
         </PopoverGroup>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
@@ -82,6 +83,7 @@ export default function Header() {
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
+              <div className="flex justify-end"><Dropdow /></div>
                 <Disclosure as="div" className="-mx-3">
                   {/* Ferramentas (title: Título, tool: Ferramenta, quantity: Quantidade de ferramentas) */}
                   <PopoverSm
@@ -97,6 +99,12 @@ export default function Header() {
                     closeBar={() => setMobileMenuOpen(false)}
                   />
                   <PopoverSm
+                    title={t("tools-grup.dev")}
+                    tool="dev"
+                    quantity={2}
+                    closeBar={() => setMobileMenuOpen(false)}
+                  />
+                  <PopoverSm
                     title={t("tools-grup.time")}
                     tool="time"
                     quantity={1}
@@ -104,7 +112,6 @@ export default function Header() {
                   />
                 </Disclosure>
               </div>
-              <Dropdow />
             </div>
           </div>
         </DialogPanel>
