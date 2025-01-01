@@ -6,7 +6,7 @@ import {getMessages} from 'next-intl/server';
 import {notFound} from 'next/navigation';
 import {routing} from '@/i18n/routing';
 import Header from "../components/Header"
-
+import { Analytics } from '@vercel/analytics/next';
 
 const geistSans = localFont({
   src: "../fonts/GeistVF.woff",
@@ -46,6 +46,7 @@ export default async function LocaleLayout({
         <NextIntlClientProvider messages={messages}>
           <Header />
           {children}
+          <Analytics />
         </NextIntlClientProvider>
       </body>
     </html>
